@@ -17,6 +17,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: aqua;
+}
+
 .city{
     font-family:'Times New Roman', Times, serif;
     text-align: center ;
@@ -28,10 +32,16 @@
     background-size: 100%;
     color: white;
 
+
 }
 .city h1{
     font-family:'Courier New', Courier, monospace;
     font-size: 1.9rem;
+}
+.city-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 30px;
 }
 .degree{
     font-size: 3.5rem;
